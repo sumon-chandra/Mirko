@@ -187,7 +187,7 @@ span{
 }
 
 .header-text button{
-    padding: 12px 30px;
+    padding: 10px 35px;
     background: none;
     color: #fff;
     border: 1px solid #0ee951;
@@ -233,57 +233,190 @@ span{
 
 
 
+/* About Section  */
+
+.about-area{
+    background-color: #212d37;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    
+}
 
 
+.about-text{
+    width: 700px;
+}
+.about-text p{
+    color: #fff;
+}
+.about-text h1{
+    font-size: 60px !important;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-text .about-pera{
+    font-size: 17px;
+    color: #fff;
+    opacity: .5;
+}
+
+.about-text button{
+    padding: 10px 35px;
+    background: none;
+    color: #fff;
+    border: 1px solid #0ee951;
+    box-shadow:  5px 5px 0px 0px #0ee951;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+.about-text button:hover{
+    box-shadow: none;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
 
 
+/* Services Section  */
+
+.services-area{
+    background-color: #1c262f;
+    color: #fff;
+}
+.services-head{
+    text-align: center;
+    padding-top: 70px;
+}
+.services-head h3{
+    font-size: 35px;
+}
+.services-head > p{
+    text-transform: uppercase;
+}
+.ser-pera{
+    font-size: 17px;
+    color: #fff;
+    opacity: .5;
+    text-transform:inherit !important;
+}
+
+.service-details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 50px 0;
+}
+.service{
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.service i{
+    font-size: 35px;
+    padding: 20px 0;
+    color:#0ee951 ;
+}
+
+.service:hover{
+    border: 1px solid #0ee951;
+    box-shadow:  5px 5px 0px 0px #0ee951;
+    transform: scale(1.01);
+    transition: transform .2s ease-in-out;
+}
+
+.service p{
+    font-size: 17px;
+    opacity: .5;
+}
 
 
+/* Our Plans  */
 
 
+.our-plan-area{
+    background-color: #212d37;
+    color: #fff;
+}
 
+.plan-head{
+    text-align: center;
+    padding-top: 70px;
+}
 
+.plan-head h3{
+    font-size: 35px;
+}
+.plan-head > p{
+    text-transform: uppercase;
 
+}
 
+.plans{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    padding: 50px 0;
+}
 
+.plan{
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.plan h2{
+    text-align: center;
+    font-weight: 600;
+    color: #0ee951;
+}
+.aver{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aver > h1{
+    font-size: 150PX;
+    width: 50%;
+    font-weight: 600;
+}
+.name{
+    width: 50%;
+}
 
+.name h3{
+    color: gray;
+    font-weight: 500;
+}
 
+.plas-acces{
+    text-align: center;
+    color: #d35151;
+}
+.date{
+    text-align: center;
+    padding: 40px 0;
+}
+.date span{
+    color: gray;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.plan button{
+    padding: 20px 0 ;
+    font-size: 25px;
+    background: none;
+    color: #fff;
+    border: 1px solid #0ee951;
+    border-radius: 10px;
+}
+.plan button:hover{
+    background-color: #0ee951;
+    color: #000;
+    font-weight: 500;
+}
 
 
 
